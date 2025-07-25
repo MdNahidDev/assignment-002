@@ -35,3 +35,26 @@ body {
 
   margin-top: 20px;
 }
+.logo_img img {
+  max-width: 135px;
+  height: 71px;
+}
+nav ul {
+  display: flex;
+  gap: 48px;
+  margin-top: 27px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+}
+.nav_color {
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+}
+.nav_second_color {
+  color: rgb(0, 0, 0);
+}
