@@ -58,3 +58,115 @@ nav ul li a {
 .nav_second_color {
   color: rgb(0, 0, 0);
 }
+/* ALWAYS FRESH FLOWERS section  */
+.fresh_flowers {
+  display: flex;
+  margin-top: 176px;
+  align-items: end;
+  justify-content: space-between;
+}
+.alwayea_section h2 {
+  font-size: 4rem;
+  color: rgb(233, 90, 8);
+}
+
+.alwayea_section h2 span {
+  color: rgb(0, 0, 0);
+}
+.alwayea_section p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
+/* our plants section style  */
+.plants_section {
+  margin-top: 75px;
+}
+.plants_section h3 {
+  text-align: center;
+  font-size: 3.12rem;
+  margin-bottom: 15px;
+}
+.font_color {
+  color: rgb(233, 90, 8);
+}
+.plants_section p {
+  max-width: 888px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.37rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.plants_img_section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.plants_img {
+  text-align: center;
+}
+.plants_img h4 {
+  font-size: 1.37rem;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+  margin: 10px 0;
+}
+.plants_img span {
+  font-size: 1.37rem;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  display: block;
+}
+.plants_img button {
+  color: white;
+  background-color: rgb(233, 90, 8);
+  padding: 12px 88px;
+  margin: 30px 0;
+  border: none;
+  max-width: 270px;
+}
+/* flower plants section style  */
+.flower_plants {
+  display: flex;
+  gap: 110px;
+  margin-top: 120px;
+  position: relative;
+}
+.plant_img {
+  max-width: 50%;
+}
+
+.flower_text h4 {
+  font-size: 3.12rem;
+  line-height: 76px;
+  max-width: 400px;
+}
+.flower_text ul li {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.37rem;
+  padding: 25px 0;
+}
+.img_logo {
+  position: absolute;
+  top: -136px;
+  left: 355px;
+  width: 286px;
+}
+/* letes deals section style  */
+.latest_text {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.latest_text h2 {
+  font-size: 3.13rem;
+  margin-bottom: 25px;
+}
+.latest_text p {
+  max-width: 888px;
+  margin: 0 auto;
+  font-size: 1.37rem;
+}
+.cards {
+  display: flex;
+  gap: 25px;
+}
