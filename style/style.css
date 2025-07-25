@@ -1,0 +1,37 @@
+/* font section style  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* sared style  */
+.noto_saris {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* body section style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contanir {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #f5f7fc;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navbar section style  */
+.nav_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
