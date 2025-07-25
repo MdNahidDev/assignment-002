@@ -170,3 +170,249 @@ nav ul li a {
   display: flex;
   gap: 25px;
 }
+.left_card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right_card {
+  position: relative;
+}
+.right_card img {
+  border-radius: 8px;
+  max-width: 753px;
+}
+.small_card {
+  position: relative;
+}
+.small_card img {
+  border-radius: 8px;
+}
+.text_card {
+  position: absolute;
+  top: 79px;
+  left: 90px;
+  text-align: center;
+}
+.text_right {
+  top: 174px;
+  left: 194px;
+}
+#text {
+  font-size: 2.5rem;
+}
+#text_small {
+  font-size: 1.75rem;
+}
+
+.text_card h3 {
+  color: white;
+  font-size: 1.25rem;
+}
+.text_card a {
+  color: white;
+}
+/* joind the colorgful section style  */
+.join_section {
+  max-width: 1440px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 533px;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.form label {
+  font-size: 3.12rem;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.colorful {
+  text-align: center;
+  padding-top: 200px;
+}
+#email {
+  padding: 10px 160px;
+  border: none;
+  margin-top: 10px;
+}
+#submit {
+  padding: 10px 30px;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
+/* footer  */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.all_section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.footer_img {
+  max-width: 359px;
+}
+.first_nav ul li {
+  list-style: none;
+}
+.first_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.second_nav ul li {
+  list-style: none;
+}
+.second_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.socal_link img {
+  margin: 0 10px;
+}
+
+/* mobile section style  */
+
+@media screen and (max-width: 768px) {
+  /* nav section style  */
+  .show_item {
+    display: none;
+  }
+
+  .nav_section {
+    margin: 25px 16px;
+  }
+  /* ALWAYS FRESH FLOWERS section  */
+  .fresh_flowers {
+    flex-direction: column-reverse;
+  }
+  .alwayea_section h2 {
+    font-size: 1.5rem;
+    max-width: 191px;
+    line-height: 33px;
+    padding-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+  .alwayea_section img {
+    width: 100%;
+  }
+  .alwayea_section p {
+    font-size: 0.87rem;
+    padding: 0 20px;
+  }
+
+  /* our plants section style  */
+  .plants_img_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plants_section h3 {
+    font-size: 1.5rem;
+  }
+  .plants_section p {
+    font-size: 0.87rem;
+  }
+  .plants_img {
+    padding: 20px;
+  }
+  .plants_img img {
+    max-width: 171px;
+  }
+  .plants_img button {
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .plants_img h4 {
+    margin: 10px 0;
+  }
+  /* flower plants section style  */
+  .flower_plants {
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 50px;
+  }
+  .img_logo {
+    display: none;
+  }
+  .first_img {
+    max-width: 400px;
+  }
+
+  .flower_text ul li {
+    font-size: 0.87rem;
+  }
+  .flower_text ul li {
+    margin-left: 25px;
+  }
+  .flower_text h4 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+  /* letes deals section style  */
+  .small_card img {
+    padding: 10px;
+  }
+  .right_card img {
+    padding: 10px;
+  }
+
+  .latest_text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .latest_text h2 {
+    font-size: 1.5rem;
+  }
+  .latest_text p {
+    font-size: 0.87rem;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .right_card img {
+    width: 100%;
+  }
+  .left_card img {
+    width: 100%;
+  }
+  #text {
+    font-size: 1.25rem;
+  }
+  #text_small {
+    font-size: 1rem;
+  }
+  .text_right {
+    top: 100px;
+    left: 120px;
+  }
+  /* joind the colorful section  */
+  .join_section {
+    height: 275px;
+    padding-left: 10px;
+  }
+  .form label {
+    font-size: 1.25rem;
+  }
+  .colorful {
+    padding-top: 107px;
+  }
+  #email {
+    padding: 15px 40px;
+  }
+  #submit {
+    padding: 15px 20px;
+  }
+  /* footer  */
+  .all_section {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+}
